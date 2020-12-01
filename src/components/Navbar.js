@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [active, setActive] = useState("About");
@@ -7,19 +8,25 @@ const Navbar = () => {
       <div className="navbar__active">{active}</div>
       <div className="navbar__items">
         {active !== "About" && (
-          <div className="navbar__item" onClick={() => setActive("About")}>
-            About
-          </div>
+          <Link to="/">
+            <div className="navbar__item" onClick={() => setActive("About")}>
+              About
+            </div>
+          </Link>
         )}
         {active !== "Resume" ? (
-          <div className="navbar__item" onClick={() => setActive("Resume")}>
-            Resume
-          </div>
+          <Link to="/resume">
+            <div className="navbar__item" onClick={() => setActive("Resume")}>
+              Resume
+            </div>
+          </Link>
         ) : null}
         {active !== "Projects" && (
-          <div className="navbar__item" onClick={() => setActive("Projects")}>
-            Projects
-          </div>
+          <Link to="/projects">
+            <div className="navbar__item" onClick={() => setActive("Projects")}>
+              Projects
+            </div>
+          </Link>
         )}
       </div>
     </div>
