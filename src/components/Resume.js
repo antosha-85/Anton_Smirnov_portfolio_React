@@ -6,17 +6,17 @@ const languages = [
   {
     icon: react,
     name: "JavaScript",
-    level: "",
+    level: "70",
   },
   {
     icon: react,
     name: "Ruby",
-    level: "",
+    level: "30",
   },
   {
     icon: react,
     name: "HTML",
-    level: "",
+    level: "80",
   },
 ];
 
@@ -24,17 +24,17 @@ const tools = [
   {
     icon: react,
     name: "React",
-    level: "",
+    level: "70",
   },
   {
     icon: react,
     name: "Node",
-    level: "",
+    level: "50",
   },
   {
     icon: react,
     name: "Ruby on Rails",
-    level: "",
+    level: "30",
   },
 ];
 
@@ -76,7 +76,7 @@ const Resume = () => {
           <h5 className="resume-language__heading">Language and Framework</h5>
           <div className="resume-language__body">
             {languages.map((language) => (
-              <Bar language={language} />
+              <Bar value={language} />
             ))}
           </div>
         </div>
@@ -84,7 +84,7 @@ const Resume = () => {
           <h5 className="resume-language__heading">Tools and softwares</h5>
           <div className="resume-language__body">
             {tools.map((tool) => (
-              <Bar tool={tool} />
+              <Bar value={tool} />
             ))}
           </div>
         </div>
