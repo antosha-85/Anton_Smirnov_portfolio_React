@@ -74,7 +74,7 @@ const Resume = () => {
       <div className="row">
         <div className="col-lg-6 resume-languages">
           <h5 className="resume-language__heading">Language and Framework</h5>
-          <div className="resume-language__body">
+          <div className="resume-language__body mt-3">
             {languages.map((language) => (
               <Bar value={language} />
             ))}
@@ -82,7 +82,7 @@ const Resume = () => {
         </div>
         <div className="col-lg-6 resume-languages">
           <h5 className="resume-language__heading">Tools and softwares</h5>
-          <div className="resume-language__body">
+          <div className="resume-language__body mt-3">
             {tools.map((tool) => (
               <Bar value={tool} />
             ))}
