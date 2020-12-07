@@ -15,9 +15,10 @@ const ProjectCard = ({
             <img
               src={github}
               alt="github_link"
-              className="projectCard__image"
+              className="projectCard__icon"
             />
           </a>
+          {name}
         </div>
       </figure>
     </div>
