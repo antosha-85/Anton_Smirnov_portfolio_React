@@ -1,4 +1,5 @@
 import React from 'react'
+import ProjectCard from './ProjectCard'
 import data_projects from './projects_data/projects_data'
 
 
@@ -7,7 +8,7 @@ const Projects = () => {
         <div className="container projects">
             <div className="row">
                 {data_projects.map(project => (
-                    <projectCard key={project.name} project={project}/>
+                    <ProjectCard key={project.name} project={project}/>
                 ))
                 }
             </div>
