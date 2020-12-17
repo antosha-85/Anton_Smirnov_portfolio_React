@@ -7,7 +7,7 @@ const data_projects = [
     image: Burger,
     deployed_url: "https://cocky-varahamihira-ba21fb.netlify.app/",
     github_url: "https://github.com/antosha-85/Anton_builder_project_react",
-    category: ["React.js", "Redux", "Firebase"],
+    category: ["React", "Redux", "Firebase"],
   },
 
   {
