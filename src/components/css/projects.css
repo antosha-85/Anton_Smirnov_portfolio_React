@@ -16,11 +16,17 @@
   height: 80%;
   border-radius: 10px;
   border: 1px solid #00f260;
+  transition: transform 0.3s linear;
+}
+
+.projectCard__image:hover {
+  transform: scale(1.05);
 }
 
 .projectCard__icon {
   width: 25px;
   height: 25px;
+  margin-right: 5px;
 }
 
 .projectCard__title {

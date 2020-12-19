@@ -8,6 +8,7 @@ import "./components/css/skill-card.css";
 import "./components/css/about.css";
 import "./components/css/navbar.css";
 import "./components/css/sidebar.css";
+import "./components/css/projects_navbar.css";
 import App from "./App";
 
 ReactDOM.render(

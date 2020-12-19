@@ -17,7 +17,7 @@ function App() {
       <div className="app">
         <div className="container app__container">
           <div className="row app__row">
-            <div className="col-lg-3 px-lg-2">
+            <div className="col-lg-3 px-lg-2 px-0">
               <Sidebar />
             </div>
             <div className="col-lg-9 app__main-content">
