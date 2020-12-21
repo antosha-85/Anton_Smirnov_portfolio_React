@@ -1,6 +1,7 @@
 import React from "react";
 import react from "../assets/icons/react.svg";
 import Bar from "./Bar";
+import { motion } from "framer-motion";
 
 const languages = [
   {
@@ -39,8 +40,26 @@ const tools = [
 ];
 
 const Resume = () => {
+  const resume_animation = {
+    initial: {
+      opacity: 0,
+    },
+    animate: {
+      opacity: 1,
+      transition: {
+        delay: 0.2,
+        duration: 1,
+        type: "spring",
+      },
+    },
+  };
   return (
-    <div className="container resume">
+    <motion.div
+      className="container resume"
+      variants={resume_animation}
+      initial="initial"
+      animate="animate"
+    >
       <div className="row">
         <div className="col-lg-6 resume-card">
           <h4 className="resume-card__heading">Education</h4>
@@ -89,7 +108,7 @@ const Resume = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
