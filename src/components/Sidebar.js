@@ -5,13 +5,33 @@ import mightycoder from "../assets/mighty-coder.svg";
 import tie from "../assets/icons/tie.svg";
 import pin from "../assets/icons/pin.svg";
 import resume from "../assets/Resume Anton Smirnov.pdf";
+import { motion } from "framer-motion";
 
 const Sidebar = () => {
   const handleEmailMe = () => {
     window.open("mailto:antosha19851985@gmail.com");
   };
+
+  const sidebar_animation = {
+    initial: {
+      x: "-20vw",
+    },
+    animate: {
+      x: "0",
+      transition: {
+        delay: 0.2,
+        duration: 1,
+        type: 'spring'
+      }
+    },
+  };
   return (
-    <div className="sidebar">
+    <motion.div
+      className="sidebar"
+      variants={sidebar_animation}
+      initial="initial"
+      animate="animate"
+    >
       <img src={mightycoder} alt="avatar" className="sidebar__avatar" />
       <div className="sidebar__name">
         Anton <span>Smirnov</span>
@@ -50,7 +70,7 @@ const Sidebar = () => {
       <div className="sidebar__item sidebar__email" onClick={handleEmailMe}>
         Email me
       </div>
-    </div>
+    </motion.div>
   );
 };
 

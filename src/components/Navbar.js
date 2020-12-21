@@ -20,16 +20,21 @@ const Navbar = () => {
     initial: {
       y: "-30vh",
     },
-    visible: {
+    animate: {
       y: "0",
+      transition: {
+        delay: 0.2,
+        duration: 1,
+        type: 'spring'
+      }
     },
   };
   return (
     <motion.div
       className="navbar"
       variants={navbar_animation}
-      initial={"initial"}
-      animate={"visible"}
+      initial="initial"
+      animate="animate"
     >
       <div className="navbar__active">{active}</div>
       <div className="navbar__items">
