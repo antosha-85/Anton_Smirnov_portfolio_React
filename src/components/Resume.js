@@ -1,43 +1,8 @@
 import React from "react";
-import react from "../assets/icons/react.svg";
 import Bar from "./Bar";
 import { motion } from "framer-motion";
+import {tools, languages} from './projects_data/resume_data'
 
-const languages = [
-  {
-    icon: react,
-    name: "JavaScript",
-    level: "70",
-  },
-  {
-    icon: react,
-    name: "Ruby",
-    level: "30",
-  },
-  {
-    icon: react,
-    name: "HTML",
-    level: "80",
-  },
-];
-
-const tools = [
-  {
-    icon: react,
-    name: "React",
-    level: "70",
-  },
-  {
-    icon: react,
-    name: "Node",
-    level: "50",
-  },
-  {
-    icon: react,
-    name: "Ruby on Rails",
-    level: "30",
-  },
-];
 
 const Resume = () => {
   const resume_animation = {

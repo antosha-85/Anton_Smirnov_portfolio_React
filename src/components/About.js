@@ -1,46 +1,7 @@
 import React from "react";
-import api from "../assets/icons/api.svg";
 import Skillcard from "./Skillcard";
 import { motion } from "framer-motion";
-
-const skills = [
-  {
-    icon: api,
-    title: "Lorem ipsum dolor sit",
-    about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, vero.",
-  },
-  {
-    icon: api,
-    title: "Lorem ipsum dolor sit",
-    about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, vero.",
-  },
-  {
-    icon: api,
-    title: "Lorem ipsum dolor sit",
-    about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, vero.",
-  },
-  {
-    icon: api,
-    title: "Lorem ipsum dolor sit",
-    about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, vero.",
-  },
-  {
-    icon: api,
-    title: "Lorem ipsum dolor sit",
-    about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, vero.",
-  },
-  {
-    icon: api,
-    title: "Lorem ipsum dolor sit",
-    about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, vero.",
-  },
-];
+import skills from "./projects_data/skills_data";
 
 const About = () => {
   const about_animation = {
