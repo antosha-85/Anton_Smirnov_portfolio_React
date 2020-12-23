@@ -55,6 +55,12 @@ const About = () => {
         type: "spring",
       },
     },
+    exit: {
+      opacity: 0,
+      transition: {
+        ease: "easeInOut",
+      },
+    },
   };
 
   return (
@@ -63,6 +69,7 @@ const About = () => {
       variants={about_animation}
       initial="initial"
       animate="animate"
+      exit="exit"
     >
       <h6 className="about__intro">
         I'm a Front End Web Developer with an emphasis on React and experience

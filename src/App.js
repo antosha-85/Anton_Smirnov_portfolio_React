@@ -1,29 +1,26 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import {
-  BrowserRouter as Router,
-  Redirect,
-  Route,
-  Switch,
-} from "react-router-dom";
+import { Redirect, Route, Switch, useLocation } from "react-router-dom";
 import Sidebar from "./components/Sidebar";
 import About from "./components/About";
 import Resume from "./components/Resume";
 import Projects from "./components/Projects";
+import { AnimatePresence } from "framer-motion";
 
 function App() {
+  const location = useLocation();
   return (
-    <Router>
-      <div className="app">
-        <div className="container app__container">
-          <div className="row app__row">
-            <div className="col-lg-3 px-lg-2 px-0">
-              <Sidebar />
-            </div>
-            <div className="col-lg-9 app__main-content">
-              {/* Navbar */}
-              <Navbar />
-              <Switch>
+    <div className="app">
+      <div className="container app__container">
+        <div className="row app__row">
+          <div className="col-lg-3 px-lg-2 px-0">
+            <Sidebar />
+          </div>
+          <div className="col-lg-9 app__main-content">
+            {/* Navbar */}
+            <Navbar />
+            <AnimatePresence exitBeforeEnter>
+              <Switch location={location} key={location.key}>
                 <Route path="/" exact>
                   <About />
                 </Route>
@@ -35,11 +32,11 @@ function App() {
                   <Redirect to="/"></Redirect>
                 </Route>
               </Switch>
-            </div>
+            </AnimatePresence>
           </div>
         </div>
       </div>
-    </Router>
+    </div>
   );
 }
 

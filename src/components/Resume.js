@@ -52,6 +52,12 @@ const Resume = () => {
         type: "spring",
       },
     },
+    exit: {
+      opacity: 0,
+      transition: {
+        ease: "easeInOut",
+      },
+    },
   };
   return (
     <motion.div
@@ -59,6 +65,7 @@ const Resume = () => {
       variants={resume_animation}
       initial="initial"
       animate="animate"
+      exit="exit"
     >
       <div className="row">
         <div className="col-lg-6 resume-card">

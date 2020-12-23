@@ -10,10 +10,13 @@ import "./components/css/navbar.css";
 import "./components/css/sidebar.css";
 import "./components/css/projects_navbar.css";
 import App from "./App";
+import { BrowserRouter as Router } from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <App />
+    </Router>
   </React.StrictMode>,
   document.getElementById("root")
 );

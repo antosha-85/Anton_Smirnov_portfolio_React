@@ -25,6 +25,12 @@ const Projects = () => {
         type: "spring",
       },
     },
+    exit: {
+      opacity: 0,
+      transition: {
+        ease: "easeInOut",
+      },
+    },
   };
   return (
     <motion.div
@@ -32,6 +38,7 @@ const Projects = () => {
       variants={projects_animation}
       initial="initial"
       animate="animate"
+      exit="exit"
     >
       <div className="projects__navbar">
         <div onClick={() => setProjects(data_projects)}>All</div>
