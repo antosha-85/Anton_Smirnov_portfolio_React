@@ -2,7 +2,7 @@ import React from "react";
 
 const Skillcard = ({ skill:{icon, title, about} }) => {
   return (
-    <div className="col-lg-6">
+    <div className="col-lg-6 mb-3">
       <div className="skill-card">
         <img src={icon} alt="icon" className="skill-card__icon" />
         <div className="skill-card-body">

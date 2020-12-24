@@ -3,39 +3,30 @@ import api from "../../assets/icons/api.svg";
 const skills = [
   {
     icon: api,
-    title: "Lorem ipsum dolor sit",
-    about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, vero.",
+    title: "Frontend Development",
+    about: "I can build beautiful and scalable SPAs using HTML, CSS, and React",
   },
   {
     icon: api,
-    title: "Lorem ipsum dolor sit",
-    about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, vero.",
+    title: "Backend Development",
+    about: "I can handle databases, APIs using PostgreSQL",
   },
   {
     icon: api,
-    title: "Lorem ipsum dolor sit",
-    about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, vero.",
+    title: "API Development",
+    about: "I can develop REST APIs using Node",
   },
   {
     icon: api,
-    title: "Lorem ipsum dolor sit",
+    title: "Competitive Coder",
     about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, vero.",
+      "I can resolve different algorithms, which I train to do on Leetcode",
   },
   {
     icon: api,
-    title: "Lorem ipsum dolor sit",
+    title: "Work in an Agile Environment",
     about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, vero.",
-  },
-  {
-    icon: api,
-    title: "Lorem ipsum dolor sit",
-    about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, vero.",
+      "I can work in an Agile Environment, I'm familiar with Jira, Stand ups, Sprints, etc.",
   },
 ];
 
