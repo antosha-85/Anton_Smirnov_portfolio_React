@@ -6,6 +6,7 @@ import tie from "../assets/icons/tie.svg";
 import pin from "../assets/icons/pin.svg";
 import resume from "../assets/Resume Anton Smirnov.pdf";
 import { motion } from "framer-motion";
+import "./css/sidebar.css";
 
 const Sidebar = () => {
   const handleEmailMe = () => {
@@ -21,8 +22,8 @@ const Sidebar = () => {
       transition: {
         delay: 0.2,
         duration: 1,
-        type: 'spring'
-      }
+        type: "spring",
+      },
     },
   };
   return (

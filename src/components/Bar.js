@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./css/bar.css";
 const Bar = ({ value: { icon, name, level } }) => {
   const bar_width = `${level}%`;
 

@@ -2,6 +2,7 @@ import React from "react";
 import Skillcard from "./Skillcard";
 import { motion } from "framer-motion";
 import skills from "./projects_data/skills_data";
+import "./css/about.css"
 
 const About = () => {
   const about_animation = {

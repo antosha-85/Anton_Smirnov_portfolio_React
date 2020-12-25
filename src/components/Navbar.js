@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import "./css/navbar.css";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -25,8 +26,8 @@ const Navbar = () => {
       transition: {
         delay: 0.2,
         duration: 1,
-        type: 'spring'
-      }
+        type: "spring",
+      },
     },
   };
   return (
