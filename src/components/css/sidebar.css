@@ -10,10 +10,8 @@
 }
 
 .sidebar__avatar {
-  height: 110px;
-  width: 120px;
+  height: 150px;
   object-fit: contain;
-  border-radius: 30px;
 }
 
 .sidebar__icon {

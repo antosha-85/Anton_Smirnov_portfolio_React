@@ -1,7 +1,7 @@
 import React from "react";
 import linkedIn from "../assets/icons/linkedin.svg";
 import github from "../assets/icons/github.svg";
-import mightycoder from "../assets/mighty-coder.svg";
+import antonImage from '../assets/avatar/Anton.jpg'
 import tie from "../assets/icons/tie.svg";
 import pin from "../assets/icons/pin.svg";
 import resume from "../assets/Resume Anton Smirnov.pdf";
@@ -33,7 +33,7 @@ const Sidebar = () => {
       initial="initial"
       animate="animate"
     >
-      <img src={mightycoder} alt="avatar" className="sidebar__avatar" />
+      <img src={antonImage} alt="avatar" className="sidebar__avatar" />
       <div className="sidebar__name">
         Anton <span>Smirnov</span>
       </div>
