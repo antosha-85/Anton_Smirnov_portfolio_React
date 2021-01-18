@@ -1,13 +1,16 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import ProjectCard from "./ProjectCard";
 import data_projects from "./projects_data/projects_data";
 import { motion } from "framer-motion";
 import "./css/projects.css";
-import "./css/projects_navbar.css"
+import "./css/projects_navbar.css";
 
 const Projects = () => {
   const [projects, setProjects] = useState(data_projects);
   const [active, setActive] = useState("All");
+  useEffect(() => {
+    document.title = "Projects Anton Smirnov";
+  }, []);
 
   const handleFilter = (name) => {
     const updatedProjects = data_projects.filter((project) =>

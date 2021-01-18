@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Bar from "./Bar";
 import { motion } from "framer-motion";
 import { tools, languages } from "./projects_data/resume_data";
 import "./css/resume.css";
 
 const Resume = () => {
+  useEffect(() => {
+    document.title = "Resume Anton Smirnov";
+  }, []);
   const resume_animation = {
     initial: {
       opacity: 0,
