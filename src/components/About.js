@@ -1,10 +1,13 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Skillcard from "./Skillcard";
 import { motion } from "framer-motion";
 import skills from "./projects_data/skills_data";
 import "./css/about.css"
 
 const About = () => {
+  useEffect(() => {
+    document.title = "Portfolio Anton Smirnov";
+  }, []);
   const about_animation = {
     initial: {
       opacity: 0,
