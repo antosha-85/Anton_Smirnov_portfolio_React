@@ -1,13 +1,11 @@
-import React, {useEffect} from "react";
+import React from "react";
+import { Helmet } from "react-helmet";
 import Skillcard from "./Skillcard";
 import { motion } from "framer-motion";
 import skills from "./projects_data/skills_data";
-import "./css/about.css"
+import "./css/about.css";
 
 const About = () => {
-  useEffect(() => {
-    document.title = "Portfolio Anton Smirnov";
-  }, []);
   const about_animation = {
     initial: {
       opacity: 0,
@@ -29,32 +27,41 @@ const About = () => {
   };
 
   return (
-    <motion.div
-      className="about"
-      variants={about_animation}
-      initial="initial"
-      animate="animate"
-      exit="exit"
-    >
-      <h6 className="about__intro">
-        I'm a Front End Web Developer with an emphasis on React and experience
-        in small web production projects and a startup doing sites for local
-        clients. I am a motivated and energetic individual who likes to solve
-        tricky problems and resolve code bugs. Passionate about producing great
-        user experiences with a customer-first attitude. During my last
-        assignment role, I helped the company stay organized and save up to 21%
-        of productive time, which translated into an additional 77% of revenue
-        for the company and up to 80% for the clients.
-      </h6>
-      <div className="container about__container">
-        <h6 className="about__heading">What I offer</h6>
-        <div className="row">
-          {skills.map((skill) => (
-            <Skillcard skill={skill} />
-          ))}
+    <>
+      <Helmet>
+        <title>Portfolio Anton Smirnov</title>
+        <meta
+          name="Portfolio Anton Smirnov"
+          description="Portfolio for Anton Smirnov, React Developer"
+        />
+      </Helmet>
+      <motion.div
+        className="about"
+        variants={about_animation}
+        initial="initial"
+        animate="animate"
+        exit="exit"
+      >
+        <h6 className="about__intro">
+          I'm a Front End Web Developer with an emphasis on React and experience
+          in small web production projects and a startup doing sites for local
+          clients. I am a motivated and energetic individual who likes to solve
+          tricky problems and resolve code bugs. Passionate about producing
+          great user experiences with a customer-first attitude. During my last
+          assignment role, I helped the company stay organized and save up to
+          21% of productive time, which translated into an additional 77% of
+          revenue for the company and up to 80% for the clients.
+        </h6>
+        <div className="container about__container">
+          <h6 className="about__heading">What I offer</h6>
+          <div className="row">
+            {skills.map((skill) => (
+              <Skillcard skill={skill} />
+            ))}
+          </div>
         </div>
-      </div>
-    </motion.div>
+      </motion.div>
+    </>
   );
 };
 
