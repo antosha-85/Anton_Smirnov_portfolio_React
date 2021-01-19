@@ -1,5 +1,5 @@
 import React from "react";
-import { Helmet, HelmetProvider } from "react-helmet-async";
+import { Helmet } from "react-helmet-async";
 import Skillcard from "./Skillcard";
 import { motion } from "framer-motion";
 import skills from "./projects_data/skills_data";
@@ -27,7 +27,7 @@ const About = () => {
   };
 
   return (
-    <HelmetProvider>
+    <>
       <Helmet>
         <title>Portfolio Anton Smirnov</title>
         <meta
@@ -56,12 +56,12 @@ const About = () => {
           <h6 className="about__heading">What I offer</h6>
           <div className="row">
             {skills.map((skill) => (
-              <Skillcard key={skill.title} skill={skill} />
+              <Skillcard key={skill.id} skill={skill} />
             ))}
           </div>
         </div>
       </motion.div>
-    </HelmetProvider>
+    </>
   );
 };
 

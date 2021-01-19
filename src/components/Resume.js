@@ -1,5 +1,5 @@
 import React from "react";
-import { Helmet, HelmetProvider } from "react-helmet-async";
+import { Helmet } from "react-helmet-async";
 import Bar from "./Bar";
 import { motion } from "framer-motion";
 import {
@@ -31,7 +31,7 @@ const Resume = () => {
     },
   };
   return (
-    <HelmetProvider>
+    <>
       <Helmet>
         <title>Resume Anton Smirnov</title>
         <meta
@@ -86,7 +86,7 @@ const Resume = () => {
             <h5 className="resume-language__heading">Languages</h5>
             <div className="resume-language__body mt-3">
               {languages.map((language) => (
-                <Bar value={language} />
+                <Bar key={language.name} value={language} />
               ))}
             </div>
           </div>
@@ -96,7 +96,7 @@ const Resume = () => {
             </h5>
             <div className="resume-language__body mt-3">
               {frameworks.map((framework) => (
-                <Bar value={framework} />
+                <Bar key={framework.name} value={framework} />
               ))}
             </div>
           </div>
@@ -104,7 +104,7 @@ const Resume = () => {
             <h5 className="resume-language__heading">Databases and CMC</h5>
             <div className="resume-language__body mt-3">
               {databasesCMC.map((database) => (
-                <Bar value={database} />
+                <Bar key={database.name} value={database} />
               ))}
             </div>
           </div>
@@ -114,13 +114,13 @@ const Resume = () => {
             </h5>
             <div className="resume-language__body mt-3">
               {testingCloud.map((testing) => (
-                <Bar value={testing} />
+                <Bar key={testing.name} value={testing} />
               ))}
             </div>
           </div>
         </div>
       </motion.div>
-    </HelmetProvider>
+    </>
   );
 };
 

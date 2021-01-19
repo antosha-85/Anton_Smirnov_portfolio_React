@@ -1,7 +1,7 @@
 import React from "react";
 import "./css/skill-card.css"
 
-const Skillcard = ({ skill:{icon, title, about} }) => {
+const Skillcard = ({ skill:{icon, title, about,id} }) => {
   return (
     <div className="col-lg-6 mb-3">
       <div className="skill-card">

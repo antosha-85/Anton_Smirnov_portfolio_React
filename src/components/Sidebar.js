@@ -47,13 +47,13 @@ const Sidebar = () => {
         </div>
       </a>
       <figure className="sidebar__social-icons my-2">
-        <a href="#">
+        <a href="https://www.linkedin.com/in/as8/">
           <img src={linkedIn} alt="LinkedIn" className="sidebar__icon" />
         </a>
       </figure>
       <div className="sidebar__contact">
         <div className="sidebar__item sidebar__github">
-          <a href="#">
+          <a href="https://github.com/antosha-85">
             <img src={github} alt="GitHub" className="sidebar__icon mr-2" />
             GitHub
           </a>

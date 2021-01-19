@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Helmet, HelmetProvider } from "react-helmet-async";
+import { Helmet } from "react-helmet-async";
 import ProjectCard from "./ProjectCard";
 import data_projects from "./projects_data/projects_data";
 import { motion } from "framer-motion";
@@ -37,7 +37,7 @@ const Projects = () => {
     },
   };
   return (
-    <HelmetProvider>
+    <>
       <Helmet>
         <title>Projects Anton Smirnov</title>
         <meta
@@ -157,7 +157,7 @@ const Projects = () => {
           ))}
         </div>
       </motion.div>
-    </HelmetProvider>
+    </>
   );
 };
 
