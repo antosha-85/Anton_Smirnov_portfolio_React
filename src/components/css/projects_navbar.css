@@ -4,9 +4,11 @@
 }
 
 .projects__navbar > div {
-  margin: 0 5px;
-  font-size: 1rem;
+  margin: 0 3px;
+  font-size: 0.8rem;
   cursor: pointer;
+  background-color: rgba(232, 232, 232, 0.3);
+  border-radius: 5px;
 }
 
 .projects__navbar-active {

@@ -112,11 +112,11 @@ const Projects = () => {
           </div>
           <div
             className={
-              active === "MaterialUI" ? "projects__navbar-active" : undefined
+              active === "Material UI" ? "projects__navbar-active" : undefined
             }
-            onClick={() => handleFilter("MaterialUI")}
+            onClick={() => handleFilter("Material UI")}
           >
-            Material UI
+            Material_UI
           </div>
           <div
             className={

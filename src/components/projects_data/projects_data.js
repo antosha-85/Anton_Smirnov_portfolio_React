@@ -30,7 +30,7 @@ const data_projects = [
     image: Ticketing4Good,
     deployed_url: "https://ticketing4good.netlify.app/",
     github_url: "https://github.com/tbalmeida/ticketing-client",
-    category: ["JavaScript", "React", "PostgreSQL", "Node", "MaterialUI"],
+    category: ["JavaScript", "React", "PostgreSQL", "Node", "Material UI"],
   },
   {
     name: "Closures in JavaScript",
