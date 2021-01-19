@@ -1,8 +1,8 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Helmet } from "react-helmet";
 import Bar from "./Bar";
 import { motion } from "framer-motion";
-import { tools, languages } from "./projects_data/resume_data";
+import { frameworks, languages,databasesCMC, testingCloud } from "./projects_data/resume_data";
 import "./css/resume.css";
 
 const Resume = () => {
@@ -78,7 +78,7 @@ const Resume = () => {
         </div>
         <div className="row">
           <div className="col-lg-6 resume-languages">
-            <h5 className="resume-language__heading">Language and Framework</h5>
+            <h5 className="resume-language__heading">Languages</h5>
             <div className="resume-language__body mt-3">
               {languages.map((language) => (
                 <Bar value={language} />
@@ -86,10 +86,26 @@ const Resume = () => {
             </div>
           </div>
           <div className="col-lg-6 resume-languages">
-            <h5 className="resume-language__heading">Tools and softwares</h5>
+            <h5 className="resume-language__heading">Frameworks and Environment</h5>
             <div className="resume-language__body mt-3">
-              {tools.map((tool) => (
-                <Bar value={tool} />
+              {frameworks.map((framework) => (
+                <Bar value={framework} />
+              ))}
+            </div>
+          </div>
+          <div className="col-lg-6 resume-languages">
+            <h5 className="resume-language__heading">Databases and CMC</h5>
+            <div className="resume-language__body mt-3">
+              {databasesCMC.map((database) => (
+                <Bar value={database} />
+              ))}
+            </div>
+          </div>
+          <div className="col-lg-6 resume-languages">
+            <h5 className="resume-language__heading">Testing and Cloud Application Platform</h5>
+            <div className="resume-language__body mt-3">
+              {testingCloud.map((testing) => (
+                <Bar value={testing} />
               ))}
             </div>
           </div>
