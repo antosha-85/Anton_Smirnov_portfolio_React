@@ -40,7 +40,7 @@ export const frameworks = [
   },
   {
     icon: react,
-    name: "Material UI",
+    name: "MaterialUI",
     level: "60",
   },
   {
