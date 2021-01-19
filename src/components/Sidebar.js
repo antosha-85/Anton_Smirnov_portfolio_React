@@ -59,8 +59,8 @@ const Sidebar = () => {
           </a>
         </div>
         <div className="sidebar__item sidebar__location">
-          <img src={pin} alt="location" className="sidebar__icon" /> Montreal,
-          Canada
+          <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/place/Montreal,+QC/@45.5581968,-73.8703851,11z/data=!3m1!4b1!4m5!3m4!1s0x4cc91a541c64b70d:0x654e3138211fefef!8m2!3d45.5016889!4d-73.567256"><img src={pin} alt="location" className="sidebar__icon" /> Montreal,
+          Canada</a>
         </div>
         <div className="sidebar__item">antosha19851985@gmail.com</div>
         <div className="sidebar__item">+1(306)250-58-61</div>
