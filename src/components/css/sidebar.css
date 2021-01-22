@@ -61,13 +61,21 @@
 }
 
 .sidebar__github:hover,
-.sidebar__resume:hover {
+.sidebar__resume:hover,
+.sidebar__location:hover,
+.sidebar__email_info:hover,
+.sidebar__phone:hover {
   background-color: #f1f1f1;
   color: #000;
 }
 .sidebar__resume {
   font-size: 0.95rem;
   margin-top: 6px;
+}
+
+.sidebar__email_info:hover,
+.sidebar__phone:hover {
+  cursor: pointer;
 }
 @media (max-width: 991px) {
   .app__main-content {
