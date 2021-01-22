@@ -7,7 +7,7 @@ const Skillcard = ({ skill:{icon, title, about,id} }) => {
       <div className="skill-card">
         <img src={icon} alt="icon" className="skill-card__icon mr-2"  />
         <div className="skill-card-body">
-          <h6 className="skill-card__title">{title}</h6>
+          <h5 className="skill-card__title">{title}</h5>
           <p className="skill-card__content">{about}</p>
         </div>
       </div>

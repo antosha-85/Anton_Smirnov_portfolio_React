@@ -53,7 +53,7 @@ const About = () => {
           revenue for the company and up to 80% for the clients.
         </h6>
         <div className="container about__container">
-          <h6 className="about__heading">What I offer</h6>
+          <h5 className="about__heading">What I offer</h5>
           <div className="row">
             {skills.map((skill) => (
               <Skillcard key={skill.id} skill={skill} />
