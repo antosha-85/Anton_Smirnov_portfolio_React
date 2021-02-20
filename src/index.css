@@ -26,6 +26,7 @@ a:hover {
 
 .app__container {
   padding-top: 50px;
+  width: 95%;
 }
 
 .app__row {
