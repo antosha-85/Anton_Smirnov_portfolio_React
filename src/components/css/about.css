@@ -15,6 +15,7 @@
 .about__container {
   background-color: #dbdddf;
   padding: 30px 20px;
+  margin-bottom: 10px;
 }
 
 .about__heading {
@@ -22,4 +23,13 @@
   font-weight: bold;
   color: #354358;
   margin-left: 10px;
+}
+
+@media(max-width: 991px) {
+  .about {
+    margin-bottom: -70px;
+  }
+  .about__container {
+    margin-bottom: 60px;
+  }
 }

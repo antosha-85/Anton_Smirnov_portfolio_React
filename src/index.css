@@ -38,3 +38,12 @@ a:hover {
   padding: 25px 15px;
   box-shadow: 0 0 10px black;
 }
+
+@media (min-width: 991px) {
+  .padding__bottom {
+    padding-bottom: 50px;
+  }
+  .margin__bottom {
+    margin-bottom: 50px;
+  }
+}
