@@ -26,7 +26,7 @@ const Sidebar = () => {
       },
     },
   };
-  if (window.innerWidth > 901) {
+  if (window.innerWidth >= 992) {
     return (
       <motion.div
         className="sidebar"

@@ -30,39 +30,76 @@ const Navbar = () => {
       },
     },
   };
-  return (
-    <motion.div
-      className="navbar"
-      variants={navbar_animation}
-      initial="initial"
-      animate="animate"
-    >
-      <div className="navbar__active">{active}</div>
-      <div className="navbar__items">
-        {active !== "About" && (
-          <Link to="/">
-            <div className="navbar__item" onClick={() => setActive("About")}>
-              About
-            </div>
-          </Link>
-        )}
-        {active !== "Resume" ? (
-          <Link to="/resume">
-            <div className="navbar__item" onClick={() => setActive("Resume")}>
-              Resume
-            </div>
-          </Link>
-        ) : null}
-        {active !== "Projects" && (
-          <Link to="/projects">
-            <div className="navbar__item" onClick={() => setActive("Projects")}>
-              Projects
-            </div>
-          </Link>
-        )}
+  if (window.innerWidth >= 992) {
+    return (
+      <motion.div
+        className="navbar"
+        variants={navbar_animation}
+        initial="initial"
+        animate="animate"
+      >
+        <div className="navbar__active">{active}</div>
+        <div className="navbar__items">
+          {active !== "About" && (
+            <Link to="/">
+              <div className="navbar__item" onClick={() => setActive("About")}>
+                About
+              </div>
+            </Link>
+          )}
+          {active !== "Resume" ? (
+            <Link to="/resume">
+              <div className="navbar__item" onClick={() => setActive("Resume")}>
+                Resume
+              </div>
+            </Link>
+          ) : null}
+          {active !== "Projects" && (
+            <Link to="/projects">
+              <div
+                className="navbar__item"
+                onClick={() => setActive("Projects")}
+              >
+                Projects
+              </div>
+            </Link>
+          )}
+        </div>
+      </motion.div>
+    );
+  } else {
+    return (
+      <div className="navbar">
+        <div className="navbar__active">{active}</div>
+        <div className="navbar__items">
+          {active !== "About" && (
+            <Link to="/">
+              <div className="navbar__item" onClick={() => setActive("About")}>
+                About
+              </div>
+            </Link>
+          )}
+          {active !== "Resume" ? (
+            <Link to="/resume">
+              <div className="navbar__item" onClick={() => setActive("Resume")}>
+                Resume
+              </div>
+            </Link>
+          ) : null}
+          {active !== "Projects" && (
+            <Link to="/projects">
+              <div
+                className="navbar__item"
+                onClick={() => setActive("Projects")}
+              >
+                Projects
+              </div>
+            </Link>
+          )}
+        </div>
       </div>
-    </motion.div>
-  );
+    );
+  }
 };
 
 export default Navbar;

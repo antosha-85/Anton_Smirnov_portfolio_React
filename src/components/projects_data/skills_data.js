@@ -8,7 +8,7 @@ import React from "react";
 const skills = [
   {
     icon: frontend,
-    id: 1,
+    id: "1",
     title: "Frontend Development",
     about: [
       "I can build beautiful and scalable SPAs using ",
@@ -23,7 +23,7 @@ const skills = [
   },
   {
     icon: backend,
-    id: 2,
+    id: "2",
     title: "Backend Development",
     about: [
       "I can handle ",
@@ -36,7 +36,7 @@ const skills = [
   },
   {
     icon: api,
-    id: 3,
+    id: "3",
     title: "API Development",
     about: [
       "I can develop ",
@@ -47,7 +47,7 @@ const skills = [
   },
   {
     icon: coder,
-    id: 4,
+    id: "4",
     title: "Competitive Coder",
     about: [
       "I can resolve different algorithms, which I train on ",
@@ -56,7 +56,7 @@ const skills = [
   },
   {
     icon: agile,
-    id: 5,
+    id: "5",
     title: "Work in an Agile Environment",
     about: [
       "I can work in an ",
