@@ -47,7 +47,7 @@ const Resume = () => {
         exit="exit"
       >
         <div className="row">
-          <div className="col-lg-6 resume-card">
+          <div className="col-lg-12 resume-card">
             <h4 className="resume-card__heading">Education</h4>
             <div className="resume-card__body">
               <h5 className="resume-card__title">Lighthouse Labs Bootcamp</h5>
@@ -61,10 +61,32 @@ const Resume = () => {
               </p>
             </div>
           </div>
+        </div>
+        <h4 className="resume-card__title">Experience</h4>
+        <div className="row">
           <div className="col-lg-6 resume-card">
-            <h4 className="resume-card__heading">Experience</h4>
+            {/* <h4 className="resume-card__heading">Experience</h4> */}
             <div className="resume-card__body">
-              <h5 className="resume-card__title">Ganin Incorporation</h5>
+              <h5 className="resume-card__title">MindGeek, Montreal, Canada</h5>
+              <p className="resume-card__name">
+                Front End Developer (Sep 2020 - Nov 2020)
+              </p>
+              <p className="resume-card__details">
+                Worked with UX team to improve the user experience, worked on
+                multiple bugs for different browsers and desktop/mobile devices.
+                Helped the product team with the planning & development of new
+                functionalities.
+                <br /> Stack - HTML, CSS, Less, JavaScript, JQuery, Twig, Behat,
+                Git, Jira
+              </p>
+            </div>
+          </div>
+          <div className="col-lg-6 resume-card">
+            {/* <h4 className="resume-card__heading">Experience</h4> */}
+            <div className="resume-card__body">
+              <h5 className="resume-card__title">
+                Ganin Incorporation, Surgut, Russia
+              </h5>
               <p className="resume-card__name">
                 Front End Developer (Feb 2019 - Aug 2019)
               </p>
