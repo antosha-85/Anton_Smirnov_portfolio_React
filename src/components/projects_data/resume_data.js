@@ -123,7 +123,7 @@ export const testingCloud = [
 
 export const educations = [
   {
-    heading: "Education",
+    id: 1,
     title: "Lighthouse Labs Bootcamp",
     name: "Bootcamp (Jan 2020 - Apr 2020)",
     details:

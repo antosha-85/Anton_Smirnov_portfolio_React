@@ -10,6 +10,7 @@ import {
   educations,
 } from "./projects_data/resume_data";
 import "./css/resume.css";
+import { EducationsList } from "./EducationsList";
 
 const Resume = () => {
   const resume_animation = {
@@ -48,24 +49,7 @@ const Resume = () => {
         exit="exit"
       >
         <div className="row">
-          <div className="col-lg-12 resume-card">
-            <h4 className="resume-card__heading">Education</h4>
-            {educations.map((education) => {
-              return (
-                <div className="resume-card__body">
-                  <h5 className="resume-card__title">
-                    {education.title}
-                  </h5>
-                  <p className="resume-card__name">
-                    {education.name}
-                  </p>
-                  <p className="resume-card__details">
-                    {education.details}
-                  </p>
-                </div>
-              );
-            })}
-          </div>
+          <EducationsList educations={educations} />
         </div>
         <h4 className="resume-card__title">Experience</h4>
         <div className="row">
