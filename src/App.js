@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import { Redirect, Route, Switch, useLocation } from "react-router-dom";
 import Sidebar from "./components/Sidebar";
 import About from "./components/About";
-import Resume from "./components/Resume";
+import Resume from "./components/Resume/Resume";
 import Projects from "./components/Projects";
 import { AnimatePresence } from "framer-motion";
 import { HelmetProvider } from "react-helmet-async";

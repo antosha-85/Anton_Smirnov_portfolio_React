@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
-import Bar from "./Bar";
+import Bar from "../Bar";
 import { motion } from "framer-motion";
 import {
   frameworks,
@@ -8,9 +8,9 @@ import {
   databasesCMC,
   testingCloud,
   educations,
-} from "./projects_data/resume_data";
-import "./css/resume.css";
-import { EducationsList } from "./EducationsList";
+} from "../projects_data/resume_data";
+import "../css/resume.css";
+import EducationsList from "./EducationsList";
 
 const Resume = () => {
   const resume_animation = {
