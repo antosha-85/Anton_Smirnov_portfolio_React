@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import {
   frameworks,
   languages,
-  databasesCMC,
+  databasesCMS,
   testingCloud,
   educations,
   experiences,
@@ -55,7 +55,7 @@ const Resume = () => {
         <TechnologiesList
           languages={languages}
           frameworks={frameworks}
-          databasesCMC={databasesCMC}
+          databasesCMS={databasesCMS}
           testingCloud={testingCloud}
         />
       </motion.div>

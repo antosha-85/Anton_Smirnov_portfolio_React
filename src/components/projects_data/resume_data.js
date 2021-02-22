@@ -65,7 +65,7 @@ export const frameworks = [
   },
 ];
 
-export const databasesCMC = [
+export const databasesCMS = [
   {
     icon: react,
     name: "Git",
