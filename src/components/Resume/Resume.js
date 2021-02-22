@@ -8,9 +8,11 @@ import {
   databasesCMC,
   testingCloud,
   educations,
+  experiences,
 } from "../projects_data/resume_data";
 import "../css/resume.css";
 import EducationsList from "./EducationsList";
+import ExperienceList from "./ExperienceList";
 
 const Resume = () => {
   const resume_animation = {
@@ -48,50 +50,8 @@ const Resume = () => {
         animate="animate"
         exit="exit"
       >
-        <div className="row">
-          <EducationsList educations={educations} />
-        </div>
-        <h4 className="resume-card__title">Experience</h4>
-        <div className="row">
-          <div className="col-lg-6 resume-card">
-            {/* <h4 className="resume-card__heading">Experience</h4> */}
-            <div className="resume-card__body">
-              <h5 className="resume-card__title">MindGeek, Montreal, Canada</h5>
-              <p className="resume-card__name">
-                Front End Developer (Sep 2020 - Nov 2020)
-              </p>
-              <p className="resume-card__details">
-                Worked with UX team to improve the user experience, worked on
-                multiple bugs for different browsers and desktop/mobile devices.
-                Helped the product team with the planning & development of new
-                functionalities.
-                <br /> Stack - HTML, CSS, Less, JavaScript, JQuery, Twig, Behat,
-                Git, Jira
-              </p>
-            </div>
-          </div>
-          <div className="col-lg-6 resume-card">
-            {/* <h4 className="resume-card__heading">Experience</h4> */}
-            <div className="resume-card__body">
-              <h5 className="resume-card__title">
-                Ganin Incorporation, Surgut, Russia
-              </h5>
-              <p className="resume-card__name">
-                Front End Developer (Feb 2019 - Aug 2019)
-              </p>
-              <p className="resume-card__details">
-                Worked in a team of two developers(myself and a senior
-                full-stack developer) using Agile Principles, such as scrum
-                meetings and weekly or biweekly review sessions, which helped
-                company stay organized and save up to 21% of productive time
-                Worked on the front end of multiple sites, was recognized by the
-                owner and clients, which translated into an additional 77% of
-                revenue for the company and up to 80% for the clients
-                <br /> Stack - HTML, CSS, Bootstrap, JavaScript, jQuery, Bitrix
-              </p>
-            </div>
-          </div>
-        </div>
+        <EducationsList educations={educations} />
+        <ExperienceList experiences={experiences} />
         <div className="row">
           <div className="col-lg-6 resume-languages">
             <h5 className="resume-language__heading">Languages</h5>

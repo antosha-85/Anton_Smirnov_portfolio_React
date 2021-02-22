@@ -130,3 +130,23 @@ export const educations = [
       "Finished Full Stack Web Development Bootcamp, Studied JavaScript, React, Node, Express, PostgreSQL, Ruby, Ruby on Rails",
   },
 ];
+
+export const experiences = [
+  {
+    id: 1,
+    title: "MindGeek, Montreal, Canada",
+    name: "Front End Developer (Sep 2020 - Nov 2020)",
+    details:
+      "Worked with UX team to improve the user experience, worked on multiple bugs for different browsers and desktop/mobile devices. Helped the product team with the planning & development of new functionalities.",
+    stack:
+      "Stack - HTML, CSS, Less, JavaScript, JQuery, Twig, Behat, Git, Jira",
+  },
+  {
+    id: 2,
+    title: "Ganin Incorporation, Surgut, Russia",
+    name: "Front End Developer (Feb 2019 - Aug 2019)",
+    details:
+      "Worked in a team of two developers(myself and a senior full-stack developer) using Agile Principles, such as scrum meetings and weekly or biweekly review sessions, which helped company stay organized and save up to 21% of productive time Worked on the front end of multiple sites, was recognized by the owner and clients, which translated into an additional 77% of revenue for the company and up to 80% for the clients",
+    stack: "Stack - HTML, CSS, Bootstrap, JavaScript, jQuery, Bitrix",
+  },
+];
