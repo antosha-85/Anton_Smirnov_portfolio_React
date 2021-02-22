@@ -1,6 +1,5 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
-import Bar from "../Bar";
 import { motion } from "framer-motion";
 import {
   frameworks,
@@ -13,6 +12,7 @@ import {
 import "../css/resume.css";
 import EducationsList from "./EducationsList";
 import ExperienceList from "./ExperienceList";
+import TechnologiesList from "./TechnologiesList";
 
 const Resume = () => {
   const resume_animation = {
@@ -52,44 +52,12 @@ const Resume = () => {
       >
         <EducationsList educations={educations} />
         <ExperienceList experiences={experiences} />
-        <div className="row">
-          <div className="col-lg-6 resume-languages">
-            <h5 className="resume-language__heading">Languages</h5>
-            <div className="resume-language__body mt-3">
-              {languages.map((language) => (
-                <Bar key={language.name} value={language} />
-              ))}
-            </div>
-          </div>
-          <div className="col-lg-6 resume-languages">
-            <h5 className="resume-language__heading">
-              Frameworks and Environment
-            </h5>
-            <div className="resume-language__body mt-3">
-              {frameworks.map((framework) => (
-                <Bar key={framework.name} value={framework} />
-              ))}
-            </div>
-          </div>
-          <div className="col-lg-6 resume-languages">
-            <h5 className="resume-language__heading">Databases and CMC</h5>
-            <div className="resume-language__body mt-3">
-              {databasesCMC.map((database) => (
-                <Bar key={database.name} value={database} />
-              ))}
-            </div>
-          </div>
-          <div className="col-lg-6 resume-languages">
-            <h5 className="resume-language__heading">
-              Testing and Cloud Application Platform
-            </h5>
-            <div className="resume-language__body mt-3">
-              {testingCloud.map((testing) => (
-                <Bar key={testing.name} value={testing} />
-              ))}
-            </div>
-          </div>
-        </div>
+        <TechnologiesList
+          languages={languages}
+          frameworks={frameworks}
+          databasesCMC={databasesCMC}
+          testingCloud={testingCloud}
+        />
       </motion.div>
     </>
   );
