@@ -120,3 +120,13 @@ export const testingCloud = [
     level: "40",
   },
 ];
+
+export const educations = [
+  {
+    heading: "Education",
+    title: "Lighthouse Labs Bootcamp",
+    name: "Bootcamp (Jan 2020 - Apr 2020)",
+    details:
+      "Finished Full Stack Web Development Bootcamp, Studied JavaScript, React, Node, Express, PostgreSQL, Ruby, Ruby on Rails",
+  },
+];

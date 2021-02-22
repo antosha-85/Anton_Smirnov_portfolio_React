@@ -7,6 +7,7 @@ import {
   languages,
   databasesCMC,
   testingCloud,
+  educations,
 } from "./projects_data/resume_data";
 import "./css/resume.css";
 
@@ -49,17 +50,21 @@ const Resume = () => {
         <div className="row">
           <div className="col-lg-12 resume-card">
             <h4 className="resume-card__heading">Education</h4>
-            <div className="resume-card__body">
-              <h5 className="resume-card__title">Lighthouse Labs Bootcamp</h5>
-              <p className="resume-card__name">
-                Bootcamp (Jan 2020 - Apr 2020)
-              </p>
-              <p className="resume-card__details">
-                Finished Full Stack Web Development Bootcamp, Studied
-                JavaScript, React, Node, Express, PostgreSQL, Ruby, Ruby on
-                Rails
-              </p>
-            </div>
+            {educations.map((education) => {
+              return (
+                <div className="resume-card__body">
+                  <h5 className="resume-card__title">
+                    {education.title}
+                  </h5>
+                  <p className="resume-card__name">
+                    {education.name}
+                  </p>
+                  <p className="resume-card__details">
+                    {education.details}
+                  </p>
+                </div>
+              );
+            })}
           </div>
         </div>
         <h4 className="resume-card__title">Experience</h4>
