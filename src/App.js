@@ -19,7 +19,6 @@ function App() {
               <Sidebar />
             </div>
             <div className="col-lg-9 app__main-content margin__bottom">
-              {/* Navbar */}
               <Navbar />
               <AnimatePresence exitBeforeEnter>
                 <Switch location={location} key={location.key}>

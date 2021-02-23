@@ -38,6 +38,7 @@
 .sidebar__title {
   background-color: #f1f1f1;
   border-radius: 30px;
+  font-size: 0.95rem;
 }
 
 .sidebar__contact {
