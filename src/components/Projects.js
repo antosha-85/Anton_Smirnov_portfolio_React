@@ -53,102 +53,114 @@ const Projects = () => {
         exit="exit"
       >
         <div className="projects__navbar">
-          <div
-            className={active === "All" ? "projects__navbar-active" : undefined}
-            onClick={() => {
-              setProjects(data_projects);
-              setActive("All");
-            }}
-          >
-            All
-          </div>
-          <div
-            className={
-              active === "React" ? "projects__navbar-active" : undefined
-            }
-            onClick={() => handleFilter("React")}
-          >
-            React
-          </div>
-          <div
-            className={
-              active === "Redux" ? "projects__navbar-active" : undefined
-            }
-            onClick={() => handleFilter("Redux")}
-          >
-            Redux
-          </div>
-          <div
-            className={
-              active === "Firebase" ? "projects__navbar-active" : undefined
-            }
-            onClick={() => handleFilter("Firebase")}
-          >
-            Firebase
-          </div>
-          <div
-            className={
-              active === "JavaScript" ? "projects__navbar-active" : undefined
-            }
-            onClick={() => handleFilter("JavaScript")}
-          >
-            JavaScript
-          </div>
-          <div
-            className={
-              active === "PostgreSQL" ? "projects__navbar-active" : undefined
-            }
-            onClick={() => handleFilter("PostgreSQL")}
-          >
-            PostgreSQL
-          </div>
-          <div
-            className={
-              active === "Node" ? "projects__navbar-active" : undefined
-            }
-            onClick={() => handleFilter("Node")}
-          >
-            Node
-          </div>
-          <div
-            className={
-              active === "Material UI" ? "projects__navbar-active" : undefined
-            }
-            onClick={() => handleFilter("Material UI")}
-          >
-            Material_UI
-          </div>
-          <div
-            className={
-              active === "Articles" ? "projects__navbar-active" : undefined
-            }
-            onClick={() => handleFilter("Articles")}
-          >
-            Articles
-          </div>
-          <div
-            className={
-              active === "Express" ? "projects__navbar-active" : undefined
-            }
-            onClick={() => handleFilter("Express")}
-          >
-            Express
-          </div>
-          <div
-            className={
-              active === "JQuery" ? "projects__navbar-active" : undefined
-            }
-            onClick={() => handleFilter("JQuery")}
-          >
-            JQuery
-          </div>
-          <div
-            className={
-              active === "Bootstrap" ? "projects__navbar-active" : undefined
-            }
-            onClick={() => handleFilter("Bootstrap")}
-          >
-            Bootstrap
+          <div className="row">
+            <div
+              className={
+                active === "All" ? "projects__navbar-active mr-1" : "mr-1"
+              }
+              onClick={() => {
+                setProjects(data_projects);
+                setActive("All");
+              }}
+            >
+              All
+            </div>
+            <div
+              className={
+                active === "React" ? "projects__navbar-active mr-1" : "mr-1"
+              }
+              onClick={() => handleFilter("React")}
+            >
+              React
+            </div>
+            <div
+              className={
+                active === "Redux" ? "projects__navbar-active mr-1" : "mr-1"
+              }
+              onClick={() => handleFilter("Redux")}
+            >
+              Redux
+            </div>
+            <div
+              className={
+                active === "Firebase" ? "projects__navbar-active mr-1" : "mr-1"
+              }
+              onClick={() => handleFilter("Firebase")}
+            >
+              Firebase
+            </div>
+            <div
+              className={
+                active === "JavaScript"
+                  ? "projects__navbar-active mr-1"
+                  : "mr-1"
+              }
+              onClick={() => handleFilter("JavaScript")}
+            >
+              JavaScript
+            </div>
+            <div
+              className={
+                active === "PostgreSQL"
+                  ? "projects__navbar-active mr-1"
+                  : "mr-1"
+              }
+              onClick={() => handleFilter("PostgreSQL")}
+            >
+              PostgreSQL
+            </div>
+            <div
+              className={
+                active === "Node" ? "projects__navbar-active mr-1" : "mr-1"
+              }
+              onClick={() => handleFilter("Node")}
+            >
+              Node
+            </div>
+            <div
+              className={
+                active === "Material UI"
+                  ? "projects__navbar-active mr-1"
+                  : "mr-1"
+              }
+              onClick={() => handleFilter("Material UI")}
+            >
+              Material_UI
+            </div>
+            <div
+              className={
+                active === "Articles" ? "projects__navbar-active mr-1" : "mr-1"
+              }
+              onClick={() => handleFilter("Articles")}
+            >
+              Articles
+            </div>
+            <div
+              className={
+                active === "Express" ? "projects__navbar-active mr-1" : "mr-1"
+              }
+              onClick={() => handleFilter("Express")}
+            >
+              Express
+            </div>
+            <div
+              className={
+                active === "JQuery" ? "projects__navbar-active mr-1" : "mr-1"
+              }
+              onClick={() => handleFilter("JQuery")}
+            >
+              JQuery
+            </div>
+            <div
+              className={
+                active === "Bootstrap"
+                  ? "projects__navbar-active mr-1"
+                  : undefined
+              }
+              onClick={() => handleFilter("Bootstrap")}
+            >
+              Bootstrap
+            </div>
           </div>
         </div>
         <div className="row">
