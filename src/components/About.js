@@ -43,7 +43,7 @@ const About = () => {
           exit="exit"
         >
           <h6 className="about__intro">
-            I'm a Front End Web Developer with an emphasis on React and
+            I'm a Full Stack Web Developer with an emphasis on React and
             experience in small web production projects and a startup doing
             sites for local clients. I am a motivated and energetic individual
             who likes to solve tricky problems and resolve code bugs. Passionate

@@ -39,7 +39,7 @@ const Sidebar = () => {
           Anton <span>Smirnov</span>
         </div>
         <div className="sidebar__item sidebar__title">
-          Front End Web Developer
+          Full Stack Web Developer
         </div>
         <a href={resume} download="Resume Anton Smirnov">
           <div className="sidebar__item sidebar__resume">
@@ -66,7 +66,7 @@ const Sidebar = () => {
               href="https://www.google.com/maps/place/Montreal,+QC/@45.5581968,-73.8703851,11z/data=!3m1!4b1!4m5!3m4!1s0x4cc91a541c64b70d:0x654e3138211fefef!8m2!3d45.5016889!4d-73.567256"
             >
               <img src={pin} alt="location" className="sidebar__icon" />{" "}
-              Montreal, Canada
+              Calgary, Canada
             </a>
           </div>
           <div className="sidebar__item sidebar__email_info">
