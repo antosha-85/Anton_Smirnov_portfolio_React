@@ -11,7 +11,7 @@ import {
 } from "../projects_data/resume_data";
 import "../css/resume.css";
 import EducationsList from "./EducationsList";
-import ExperienceList from "./ExperienceList";
+import ExperiencesList from "./ExperiencesList";
 import TechnologiesList from "./TechnologiesList";
 
 const Resume = () => {
@@ -51,7 +51,7 @@ const Resume = () => {
         exit="exit"
       >
         <EducationsList educations={educations} />
-        <ExperienceList experiences={experiences} />
+        <ExperiencesList experiences={experiences}/>
         <TechnologiesList
           languages={languages}
           frameworks={frameworks}

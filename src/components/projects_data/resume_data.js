@@ -137,19 +137,36 @@ export const educations = [
 export const experiences = [
   {
     id: 1,
-    title: "MindGeek, Montreal, Canada",
-    name: "Front End Developer (Sep 2020 - Nov 2020)",
-    details:
-      "Worked with UX team to improve the user experience, worked on multiple bugs for different browsers and desktop/mobile devices. Helped the product team with the planning & development of new functionalities.",
-    stack:
-      "Stack - HTML, CSS, Less, JavaScript, JQuery, Twig, Behat, Git, Jira",
+    title:
+      "Full Stack Developer, Ganin Corp, Surgut(Temporary Contract), Dec 2020 - Present",
+    name:
+      "Russian software company based in Surgut, specializing in Web and software design",
+    details: [ {detail:"- Front End Development for webapps", id:11},
+     {detail: "- Learning and adapting to the Client’s technology stack and development patterns", id: 12},
+    {detail: "- Backend development and testing", id: 13},
+    {detail: "- Contributing to the client’s roadmap by providing technical opinions acquired through customer interaction and coding", id: 14},
+    {detail:"- Stack: PostgreSQL, JavaScript, Express, NodeJs, JavaScript, Twig, CSS, HTML, Less, Behat", id:15},
+   {detail:"- OS: Linux (Ubuntu, Debian), Windows", id:16}]
   },
-  {
-    id: 2,
-    title: "Ganin Incorporation, Surgut, Russia",
-    name: "Front End Developer (Feb 2019 - Aug 2019)",
-    details:
-      "Worked in a team of two developers(myself and a senior full-stack developer) using Agile Principles, such as scrum meetings and weekly or biweekly review sessions, which helped company stay organized and save up to 21% of productive time Worked on the front end of multiple sites, was recognized by the owner and clients, which translated into an additional 77% of revenue for the company and up to 80% for the clients",
-    stack: "Stack - HTML, CSS, Bootstrap, JavaScript, jQuery, Bitrix",
-  },
+  // {
+  //   id: 2,
+  //   title:
+  //     "Full Stack Developer, Ganin Corp, Surgut(Temporary Contract), Dec 2020 - Present",
+  //   name:
+  //     "Russian software company based in Surgut, specializing in Web and software design",
+  //   details: [ {detail:"- Front End Development for webapps", id:11},
+  //    {detail: "- Learning and adapting to the Client’s technology stack and development patterns", id: 12},
+  //   {detail: "- Backend development and testing", id: 13},
+  //   {detail: "- Contributing to the client’s roadmap by providing technical opinions acquired through customer interaction and coding", id: 14},
+  //   {detail:"- Stack: PostgreSQL, JavaScript, Express, NodeJs, JavaScript, Twig, CSS, HTML, Less, Behat", id:15},
+  //  {detail:"- OS: Linux (Ubuntu, Debian), Windows", id:16}]
+  // },
+  // {
+  //   id: 2,
+  //   title: "Ganin Incorporation, Surgut, Russia",
+  //   name: "Front End Developer (Feb 2019 - Aug 2019)",
+    // details:
+    //   "Worked in a team of two developers(myself and a senior full-stack developer) using Agile Principles, such as scrum meetings and weekly or biweekly review sessions, which helped company stay organized and save up to 21% of productive time Worked on the front end of multiple sites, was recognized by the owner and clients, which translated into an additional 77% of revenue for the company and up to 80% for the clients",
+    // stack: "Stack - HTML, CSS, Bootstrap, JavaScript, jQuery, Bitrix",
+  // },
 ];

@@ -1,7 +1,7 @@
 import React from "react";
 import Experience from "./Experience";
 
-const ExperienceList = ({ experiences }) => {
+const ExperiencesList = ({ experiences }) => {
   return (
     <>
       <h4 className="resume-card__title">Experience</h4>
@@ -14,4 +14,4 @@ const ExperienceList = ({ experiences }) => {
   );
 };
 
-export default ExperienceList;
+export default ExperiencesList;
