@@ -125,9 +125,12 @@ export const educations = [
   {
     id: 1,
     title: "Lighthouse Labs Bootcamp",
-    name: "Bootcamp (Jan 2020 - Apr 2020)",
-    details:
-      "Finished Full Stack Web Development Bootcamp, Studied JavaScript, React, Node, Express, PostgreSQL, Ruby, Ruby on Rails",
+    name: "Full Stack Web Development Diploma, Calgary, Canada, 2020",
+  },
+  {
+    id: 2,
+    title: "Tyumen State Oil and Gas University",
+    name: "Master's Degree in Petroleum Engineering, Tyumen, Russia, 2007",
   },
 ];
 
