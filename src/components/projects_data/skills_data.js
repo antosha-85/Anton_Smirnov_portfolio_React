@@ -3,6 +3,7 @@ import frontend from "../../assets/icons/ux-design.svg";
 import agile from "../../assets/icons/agile.svg";
 import backend from "../../assets/icons/backend.png";
 import coder from "../../assets/icons/coder.png";
+import cloud from "../../assets/icons/cloud.png";
 import React from "react";
 
 const skills = [
@@ -65,6 +66,16 @@ const skills = [
       <strong>Jira</strong>,
       " ,",
       "Stand ups, Sprints, etc.",
+    ],
+  },
+  {
+    icon: cloud,
+    id: "6",
+    title: "Cloud developer",
+    about: [
+      "I can build applications that are served on the ",
+      <strong>Cloud</strong>,
+      " (AWS) "
     ],
   },
 ];
