@@ -136,7 +136,7 @@ export const educations = [
 
 export const experiences = [
   {
-    id: 1,
+    id: 324,
     title:
       "Full Stack Developer, Ganin Corp, Surgut(Temporary Contract), Dec 2020 - Present",
     name:
@@ -146,7 +146,8 @@ export const experiences = [
     {detail: "- Backend development and testing", id: 13},
     {detail: "- Contributing to the client’s roadmap by providing technical opinions acquired through customer interaction and coding", id: 14},
     {detail:"- Stack: PostgreSQL, JavaScript, Express, NodeJs, JavaScript, Twig, CSS, HTML, Less, Behat", id:15},
-   {detail:"- OS: Linux (Ubuntu, Debian), Windows", id:16}]
+   {detail:"- OS: Linux (Ubuntu, Debian), Windows", id:16}
+  ]
   },
   // {
   //   id: 2,

@@ -1,6 +1,6 @@
 import React from "react";
 
-const ExperienceDetail = ({ detail}) => {
+const ExperienceDetail = ({ detail }) => {
   return (
     <>
       {detail}
