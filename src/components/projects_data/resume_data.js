@@ -136,38 +136,168 @@ export const educations = [
 
 export const experiences = [
   {
-    id: 324,
+    id: 1,
     title:
       "Full Stack Developer, Ganin Corp, Surgut(Temporary Contract), Dec 2020 - Present",
     name:
       "Russian software company based in Surgut, specializing in Web and software design",
-    details: [ {detail:"- Front End Development for webapps", id:11},
-     {detail: "- Learning and adapting to the Client’s technology stack and development patterns", id: 12},
-    {detail: "- Backend development and testing", id: 13},
-    {detail: "- Contributing to the client’s roadmap by providing technical opinions acquired through customer interaction and coding", id: 14},
-    {detail:"- Stack: PostgreSQL, JavaScript, Express, NodeJs, JavaScript, Twig, CSS, HTML, Less, Behat", id:15},
-   {detail:"- OS: Linux (Ubuntu, Debian), Windows", id:16}
-  ]
+    details: [
+      { detail: "- Front End Development for webapps", id: 1 },
+      {
+        detail:
+          "- Learning and adapting to the Client’s technology stack and development patterns",
+        id: 2,
+      },
+      { detail: "- Backend development and testing", id: 3 },
+      {
+        detail:
+          "- Contributing to the client’s roadmap by providing technical opinions acquired through customer interaction and coding",
+        id: 4,
+      },
+      {
+        detail:
+          "- Stack: PostgreSQL, JavaScript, Express, NodeJs, JavaScript, Twig, CSS, HTML, Less, Behat",
+        id: 5,
+      },
+      { detail: "- OS: Linux (Ubuntu, Debian), Windows", id: 6 },
+    ],
   },
-  // {
-  //   id: 2,
-  //   title:
-  //     "Full Stack Developer, Ganin Corp, Surgut(Temporary Contract), Dec 2020 - Present",
-  //   name:
-  //     "Russian software company based in Surgut, specializing in Web and software design",
-  //   details: [ {detail:"- Front End Development for webapps", id:11},
-  //    {detail: "- Learning and adapting to the Client’s technology stack and development patterns", id: 12},
-  //   {detail: "- Backend development and testing", id: 13},
-  //   {detail: "- Contributing to the client’s roadmap by providing technical opinions acquired through customer interaction and coding", id: 14},
-  //   {detail:"- Stack: PostgreSQL, JavaScript, Express, NodeJs, JavaScript, Twig, CSS, HTML, Less, Behat", id:15},
-  //  {detail:"- OS: Linux (Ubuntu, Debian), Windows", id:16}]
-  // },
-  // {
-  //   id: 2,
-  //   title: "Ganin Incorporation, Surgut, Russia",
-  //   name: "Front End Developer (Feb 2019 - Aug 2019)",
-    // details:
-    //   "Worked in a team of two developers(myself and a senior full-stack developer) using Agile Principles, such as scrum meetings and weekly or biweekly review sessions, which helped company stay organized and save up to 21% of productive time Worked on the front end of multiple sites, was recognized by the owner and clients, which translated into an additional 77% of revenue for the company and up to 80% for the clients",
-    // stack: "Stack - HTML, CSS, Bootstrap, JavaScript, jQuery, Bitrix",
-  // },
+  {
+    id: 2,
+    title:
+      "Hardware Technician (MWD), Phoenix Technology Services, Aug 2018 - Present",
+    name: "Canadian leader in the Oil and Gas directional drilling Industry",
+    details: [
+      {
+        detail: "- Installation and troubleshooting of surface sensor hardware",
+        id: 1,
+      },
+      {
+        detail:
+          "- Troubleshooting and maintenance of Electromagnetic Wave Resistivity equipment",
+        id: 2,
+      },
+      { detail: "- Servicing downhole pulsers and probes", id: 3 },
+      {
+        detail:
+          "- Worked closely with the Reliability department to identify improvements and modifications to the equipment",
+        id: 4,
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "Front End Developer, MindGeek, Montreal, Sep 2020 - Nov 2020",
+    name: `MindGeek is a Canadian leader in Web Design, IT and Web Development`,
+    details: [
+      {
+        detail: `- Experienced working in a collaborative environment 
+      comprised of multi-disciplinary teams`,
+        id: 1,
+      },
+      {
+        detail: "- Successfully improved the user experience of different apps",
+        id: 2,
+      },
+      {
+        detail: `- Successfully fixed different 
+      bugs on desktop as well as on mobile devices`,
+        id: 3,
+      },
+      {
+        detail: `- Contributed to the development and 
+          design of new functionalities with the product team`,
+        id: 4,
+      },
+      {
+        detail: `- Experience using Jira’s Kanban boards for Agile and DevOps software development`,
+        id: 5,
+      },
+      {
+        detail: `- Experienced in using GIT as Distributed version control system`,
+        id: 6,
+      },
+      {
+        detail: `- Stack: GIT, JIRA, Kanban boards, JavaScript, Twig, CSS, HTML, Less, Behat`,
+        id: 7,
+      },
+    ],
+  },
+  {
+    id: 4,
+    title:
+      "Full Stack Developer, Ganin Corp, Surgut (Temporary Contract), Jun 2018 - Sep 2020",
+    name: `Russian software company based in Surgut, specializing in Web and software design`,
+    details: [
+      {
+        detail: `- Designed responsive websites for local businesses`,
+        id: 1,
+      },
+      {
+        detail:
+          "- Learning and adapting to the Client’s technology stack and development patterns",
+        id: 2,
+      },
+      {
+        detail: `- Backend development and testing`,
+        id: 3,
+      },
+      {
+        detail: `- Contributing to the client’s roadmap by providing technical 
+        opinions acquired through customer interaction and coding`,
+        id: 4,
+      },
+      {
+        detail: `- Designed simple business apps for clients handling (CRM, billing)`,
+        id: 5,
+      },
+      {
+        detail: `- Led successfully different scrum meetings 
+        and biweekly review sessions with clients and team members`,
+        id: 6,
+      },
+      {
+        detail: `- Implemented solutions using Bitrix CMS system`,
+        id: 7,
+      },
+      {
+        detail: `- Stack: PostgreSQL, MongoDB, JavaScript, Express, NodeJs, 
+        JavaScript, Twig, Perl, PHP, MySQL, CSS, HTML, jQuery, Less, Behat`,
+        id: 8,
+      },
+      {
+        detail: `- OS: Linux (Ubuntu, Debian), Windows`,
+        id: 9,
+      },
+    ],
+  },
+  {
+    id: 5,
+    title:
+      "Geomechanics Engineer (MWD), Schlumberger Logelco Inc, Aug 2010 - May 2018",
+    name: `Schlumberger is the world’s leading Oilfield Services Provider`,
+    details: [
+      {
+        detail: `- Used python to perform different Geomechanical calculations such as
+        1) In-Situ rock stress
+        2) Modulus of elasticity
+        3) Leak-off coefficient
+        4) Poisson’s ratio`,
+        id: 1,
+      },
+      {
+        detail: `- Used both my Geomechanics and programming 
+        skills to generate different field reports to clients`,
+        id: 2,
+      },
+      {
+        detail: `- Successfully created and implemented plans for new drilling projects`,
+        id: 3,
+      },
+      {
+        detail: `- Advised clients on different operational drilling parameters`,
+        id: 4,
+      },
+    ],
+  },
 ];
