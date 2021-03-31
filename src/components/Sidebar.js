@@ -48,13 +48,18 @@ const Sidebar = () => {
           </div>
         </a>
         <figure className="sidebar__social-icons my-2">
-          <a href="https://www.linkedin.com/in/as8/">
+          <a
+            href="https://www.linkedin.com/in/as8/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={linkedIn} alt="LinkedIn" className="sidebar__icon" />
           </a>
         </figure>
         <div className="sidebar__contact">
           <div className="sidebar__item sidebar__github">
-            <a href="https://github.com/antosha-85">
+            <a href="https://github.com/antosha-85" target="_blank"
+            rel="noopener noreferrer">
               <img src={github} alt="GitHub" className="sidebar__icon mr-2" />
               GitHub
             </a>
@@ -104,7 +109,11 @@ const Sidebar = () => {
           </div>
         </a>
         <figure className="sidebar__social-icons my-2">
-          <a href="https://www.linkedin.com/in/as8/">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/in/as8/"
+          >
             <img src={linkedIn} alt="LinkedIn" className="sidebar__icon" />
           </a>
         </figure>
