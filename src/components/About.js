@@ -52,7 +52,12 @@ const About = () => {
             <h5 className="about__heading">What I offer</h5>
             <div className="row">
               {skills.map((skill) => (
-                <Skillcard key={skill.id} skill={skill} />
+                <Skillcard 
+                key={skill.id} 
+                about={skill.about}
+                title={skill.title} 
+                icon={skill.icon}
+                />
               ))}
             </div>
           </div>
@@ -80,7 +85,9 @@ const About = () => {
             <h5 className="about__heading">What I offer</h5>
             <div className="row">
               {skills.map((skill) => (
-                <Skillcard key={skill.id} skill={skill} />
+                <Skillcard 
+                key={skill.id} 
+                skill={skill} />
               ))}
             </div>
           </div>

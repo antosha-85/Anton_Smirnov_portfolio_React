@@ -9,9 +9,9 @@ import React from "react";
 const skills = [
   {
     icon: frontend,
-    id: "1",
+    id: 1,
     title: "Frontend Development",
-    about: [
+    about: [1, 
       "I can build beautiful and scalable SPAs using ",
       <strong>HTML</strong>,
       ", ",
@@ -24,9 +24,9 @@ const skills = [
   },
   {
     icon: backend,
-    id: "2",
+    id: 2,
     title: "Backend Development",
-    about: [
+    about: [2, 
       "I can handle ",
       <strong>databases</strong>,
       ", ",
@@ -37,9 +37,9 @@ const skills = [
   },
   {
     icon: api,
-    id: "3",
+    id: 3,
     title: "API Development",
-    about: [
+    about: [3, 
       "I can develop ",
       <strong>REST APIs</strong>,
       " using ",
@@ -48,18 +48,20 @@ const skills = [
   },
   {
     icon: coder,
-    id: "4",
+    id: 4,
     title: "Competitive Coder",
     about: [
+      4,
       "I can resolve different algorithms, which I train on ",
       <strong>Leetcode</strong>,
     ],
   },
   {
     icon: agile,
-    id: "5",
+    id: 5,
     title: "Work in an Agile Environment",
     about: [
+      5,
       "I can work in an ",
       <strong>Agile</strong>,
       " Environment, I'm familiar with ",
@@ -70,12 +72,13 @@ const skills = [
   },
   {
     icon: cloud,
-    id: "6",
+    id: 6,
     title: "Cloud developer",
     about: [
+      6,
       "I can build applications that are served on the ",
       <strong>Cloud</strong>,
-      " (AWS) "
+      " (AWS)",
     ],
   },
 ];
