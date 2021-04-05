@@ -7,11 +7,6 @@ export const languages = [
   },
   {
     icon: react,
-    name: "Ruby",
-    level: "30",
-  },
-  {
-    icon: react,
     name: "HTML",
     level: "80",
   },
@@ -19,6 +14,26 @@ export const languages = [
     icon: react,
     name: "CSS",
     level: "80",
+  },
+  {
+    icon: react,
+    name: "Ruby",
+    level: "30",
+  },
+  {
+    icon: react,
+    name: "Perl",
+    level: "30",
+  },
+  {
+    icon: react,
+    name: "PHP",
+    level: "30",
+  },
+  {
+    icon: react,
+    name: "Python",
+    level: "30",
   },
 ];
 
@@ -81,12 +96,22 @@ export const databasesCMS = [
     name: "Firebase",
     level: "50",
   },
+  {
+    icon: react,
+    name: "MongoDB",
+    level: "40",
+  },
 ];
 
 export const testingCloud = [
   {
     icon: react,
     name: "Netlify",
+    level: "60",
+  },
+  {
+    icon: react,
+    name: "AWS",
     level: "60",
   },
   {
