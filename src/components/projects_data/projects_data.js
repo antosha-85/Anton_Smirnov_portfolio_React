@@ -11,21 +11,6 @@ import fiveria from "../../assets/projects_images/5ria.PNG";
 import master from "../../assets/projects_images/Master.PNG";
 const data_projects = [
   {
-    name: "Burger",
-    image: Burger,
-    deployed_url: "https://cocky-varahamihira-ba21fb.netlify.app/",
-    github_url: "https://github.com/antosha-85/Anton_builder_project_react",
-    category: ["React", "Redux", "Firebase"],
-  },
-
-  {
-    name: "JavaScript Games",
-    image: Games,
-    deployed_url: "https://github.com/antosha-85/JavaScript-games",
-    github_url: "https://github.com/antosha-85/JavaScript-games",
-    category: ["JavaScript"],
-  },
-  {
     name: "Ticketing4Good",
     image: Ticketing4Good,
     deployed_url: "https://ticketing4good.netlify.app/",
@@ -49,20 +34,6 @@ const data_projects = [
     github_url:
       "https://medium.com/@antosha19851985/prototype-inheritance-a4909d6a2b7d?sk=86c209f910bf1e0c8025d4357487ff51",
     category: ["JavaScript", "Articles"],
-  },
-  {
-    name: "Tweeter",
-    image: Tweeter,
-    deployed_url: "https://github.com/antosha-85/tweeter",
-    github_url: "https://github.com/antosha-85/tweeter",
-    category: ["JavaScript"],
-  },
-  {
-    name: "URL Shortener",
-    image: URLshortener,
-    deployed_url: "https://github.com/antosha-85/tinyapp",
-    github_url: "https://github.com/antosha-85/tinyapp",
-    category: ["JavaScript", "Node", "Express"],
   },
   {
     name: "In-news",
