@@ -56,7 +56,7 @@ const Projects = () => {
           <div className="row">
             <div
               className={
-                active === "All" ? "projects__navbar-active mr-1" : "mr-1"
+                active === "All" ? "projects__navbar-active mr-1 tab_active" : "mr-1"
               }
               onClick={() => {
                 setProjects(data_projects);
@@ -67,7 +67,7 @@ const Projects = () => {
             </div>
             <div
               className={
-                active === "React" ? "projects__navbar-active mr-1" : "mr-1"
+                active === "React" ? "projects__navbar-active mr-1 tab_active" : "mr-1"
               }
               onClick={() => handleFilter("React")}
             >
@@ -75,7 +75,7 @@ const Projects = () => {
             </div>
             <div
               className={
-                active === "Redux" ? "projects__navbar-active mr-1" : "mr-1"
+                active === "Redux" ? "projects__navbar-active mr-1 tab_active" : "mr-1"
               }
               onClick={() => handleFilter("Redux")}
             >
@@ -83,7 +83,7 @@ const Projects = () => {
             </div>
             <div
               className={
-                active === "Firebase" ? "projects__navbar-active mr-1" : "mr-1"
+                active === "Firebase" ? "projects__navbar-active mr-1 tab_active" : "mr-1"
               }
               onClick={() => handleFilter("Firebase")}
             >
@@ -92,7 +92,7 @@ const Projects = () => {
             <div
               className={
                 active === "JavaScript"
-                  ? "projects__navbar-active mr-1"
+                  ? "projects__navbar-active mr-1 tab_active"
                   : "mr-1"
               }
               onClick={() => handleFilter("JavaScript")}
@@ -102,7 +102,7 @@ const Projects = () => {
             <div
               className={
                 active === "PostgreSQL"
-                  ? "projects__navbar-active mr-1"
+                  ? "projects__navbar-active mr-1 tab_active"
                   : "mr-1"
               }
               onClick={() => handleFilter("PostgreSQL")}
@@ -111,7 +111,7 @@ const Projects = () => {
             </div>
             <div
               className={
-                active === "Node" ? "projects__navbar-active mr-1" : "mr-1"
+                active === "Node" ? "projects__navbar-active mr-1 tab_active" : "mr-1"
               }
               onClick={() => handleFilter("Node")}
             >
@@ -120,7 +120,7 @@ const Projects = () => {
             <div
               className={
                 active === "Material UI"
-                  ? "projects__navbar-active mr-1"
+                  ? "projects__navbar-active mr-1 tab_active"
                   : "mr-1"
               }
               onClick={() => handleFilter("Material UI")}
@@ -129,7 +129,7 @@ const Projects = () => {
             </div>
             <div
               className={
-                active === "Articles" ? "projects__navbar-active mr-1" : "mr-1"
+                active === "Articles" ? "projects__navbar-active mr-1 tab_active" : "mr-1"
               }
               onClick={() => handleFilter("Articles")}
             >
@@ -137,7 +137,7 @@ const Projects = () => {
             </div>
             <div
               className={
-                active === "Express" ? "projects__navbar-active mr-1" : "mr-1"
+                active === "Express" ? "projects__navbar-active mr-1 tab_active" : "mr-1"
               }
               onClick={() => handleFilter("Express")}
             >
@@ -145,7 +145,7 @@ const Projects = () => {
             </div>
             <div
               className={
-                active === "JQuery" ? "projects__navbar-active mr-1" : "mr-1"
+                active === "JQuery" ? "projects__navbar-active mr-1 tab_active" : "mr-1"
               }
               onClick={() => handleFilter("JQuery")}
             >
@@ -154,7 +154,7 @@ const Projects = () => {
             <div
               className={
                 active === "Bootstrap"
-                  ? "projects__navbar-active mr-1"
+                  ? "projects__navbar-active mr-1 tab_active"
                   : undefined
               }
               onClick={() => handleFilter("Bootstrap")}
@@ -164,9 +164,9 @@ const Projects = () => {
           </div>
         </div>
         <div className="row">
-          {projects.map((project) => (
+          {projects.length ? projects.map((project) => (
             <ProjectCard key={project.name} project={project} />
-          ))}
+          )) : <div className="noProjects"> Unfortunately there are no projects listed with the chosen technology! <br />Click on something else!</div>}
         </div>
       </motion.div>
     </>

@@ -10,8 +10,13 @@
   background-color: rgba(232, 232, 232, 0.3);
   border-radius: 5px;
 }
+.projects__navbar > div > div {
+  padding: 0 1px;
+}
 
-.projects__navbar-active {
-  color: #00f260;
-  
+.projects__navbar-active.tab_active {
+  color: black;
+  background-color:rgba(0, 242, 96, 0.5);
+  padding: 3px;
+  margin: -5px;
 }
