@@ -2,11 +2,6 @@
 .navbar__items {
   display: flex;
 }
-@media (max-width: 450px) {
-  .navbar__active {
-    font-size: 1.2rem;
-  }
-}
 
 .navbar__active {
   font-size: 2rem;
@@ -14,12 +9,12 @@
   color: #354358;
   border-bottom: 4px solid #00f260;
 }
-
 @media (max-width: 450px) {
-  .navbar__item {
-    font-size: 1.1rem;
+  .navbar__active {
+    font-size: 1.2rem;
   }
 }
+
 
 .navbar__item {
   margin-right: 20px;
@@ -27,6 +22,11 @@
   color: #354358;
   font-size: 1.3rem;
   cursor: pointer;
+}
+@media (max-width: 450px) {
+  .navbar__item {
+    font-size: 1.1rem;
+  }
 }
 
 .navbar__item:hover {
