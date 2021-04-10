@@ -43,20 +43,21 @@ const About = () => {
           exit="exit"
         >
           <h6 className="about__intro">
-          I'm a Full Stack Web Developer with an emphasis on React and experience in web production projects, 
-          startups, and big companies. I am a motivated and energetic individual who likes to solve tricky 
-          problems and resolve code bugs. 
-          Passionate about producing great user experiences with a customer-first attitude.
+            I'm a Full Stack Web Developer with an emphasis on React and
+            experience in web production projects, startups, and big companies.
+            I am a motivated and energetic individual who likes to solve tricky
+            problems and resolve code bugs. Passionate about producing great
+            user experiences with a customer-first attitude.
           </h6>
           <div className="container about__container">
             <h5 className="about__heading">What I offer</h5>
             <div className="row">
               {skills.map((skill) => (
-                <Skillcard 
-                key={skill.id} 
-                about={skill.about}
-                title={skill.title} 
-                icon={skill.icon}
+                <Skillcard
+                  key={skill.id}
+                  about={skill.about}
+                  title={skill.title}
+                  icon={skill.icon}
                 />
               ))}
             </div>
@@ -76,18 +77,22 @@ const About = () => {
         </Helmet>
         <div>
           <h6 className="about__intro">
-          I'm a Full Stack Web Developer with an emphasis on React and experience in web production projects, 
-          startups, and big companies. I am a motivated and energetic individual who likes to solve tricky 
-          problems and resolve code bugs. 
-          Passionate about producing great user experiences with a customer-first attitude.
+            I'm a Full Stack Web Developer with an emphasis on React and
+            experience in web production projects, startups, and big companies.
+            I am a motivated and energetic individual who likes to solve tricky
+            problems and resolve code bugs. Passionate about producing great
+            user experiences with a customer-first attitude.
           </h6>
           <div className="container about__container">
             <h5 className="about__heading">What I offer</h5>
             <div className="row">
               {skills.map((skill) => (
-                <Skillcard 
-                key={skill.id} 
-                skill={skill} />
+                <Skillcard
+                  key={skill.id}
+                  about={skill.about}
+                  title={skill.title}
+                  icon={skill.icon}
+                />
               ))}
             </div>
           </div>

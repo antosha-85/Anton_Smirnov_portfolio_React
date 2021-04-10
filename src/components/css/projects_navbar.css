@@ -20,3 +20,15 @@
   padding: 3px;
   margin: -5px;
 }
+
+@media(max-width: 450px) {
+  .projects__navbar-active.tab_active {
+    padding: 0;
+    margin: -2px;
+    font-size: 0.7rem;
+  }
+  
+  .projects__navbar > div {
+    font-size: 0.7rem;
+  }
+}
