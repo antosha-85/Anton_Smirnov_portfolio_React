@@ -1,37 +1,44 @@
 import react from "../../assets/icons/react.svg";
+import jscript from "../../assets/icons/javascript.svg";
+import html from "../../assets/icons/html.png";
+import css from "../../assets/icons/css.png";
+import ruby from "../../assets/icons/ruby.png";
+import perl from "../../assets/icons/perl.png";
+import php from "../../assets/icons/php.png";
+import python from "../../assets/icons/python.png";
 export const languages = [
   {
-    icon: react,
+    icon: jscript,
     name: "JavaScript",
     level: "70",
   },
   {
-    icon: react,
+    icon: html,
     name: "HTML",
     level: "80",
   },
   {
-    icon: react,
+    icon: css,
     name: "CSS",
     level: "80",
   },
   {
-    icon: react,
+    icon: ruby,
     name: "Ruby",
     level: "30",
   },
   {
-    icon: react,
+    icon: perl,
     name: "Perl",
     level: "30",
   },
   {
-    icon: react,
+    icon: php,
     name: "PHP",
     level: "30",
   },
   {
-    icon: react,
+    icon: python,
     name: "Python",
     level: "30",
   },

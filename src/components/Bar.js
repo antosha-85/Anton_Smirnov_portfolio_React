@@ -5,11 +5,11 @@ const Bar = ({ value: { icon, name, level } }) => {
 
   return (
     <div className="bar">
-      <div className="bar__wrapper" style={{ width: bar_width }}>
-        <span className="bar__name">
-          <img src={icon} alt="icon" className="bar__icon mr-2" />
-          {name}
-        </span>
+      <div className="row">
+        <img src={icon} alt="icon" className="bar__icon mr-1" />
+        <div className="bar__wrapper" style={{ width: bar_width }}>
+          <span className="bar__name">{name}</span>
+        </div>
       </div>
     </div>
   );
