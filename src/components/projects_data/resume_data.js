@@ -1,4 +1,3 @@
-import react from "../../assets/icons/react.svg";
 import jscript from "../../assets/icons/javascript.svg";
 import html from "../../assets/icons/html.png";
 import css from "../../assets/icons/css.png";
@@ -6,6 +5,14 @@ import ruby from "../../assets/icons/ruby.png";
 import perl from "../../assets/icons/perl.png";
 import php from "../../assets/icons/php.png";
 import python from "../../assets/icons/python.png";
+import react from '../../assets/icons/react.png'
+import redux from '../../assets/icons/redux.png'
+import bootstrap from '../../assets/icons/bootstrap.png'
+import materialUI from '../../assets/icons/materialUI.png'
+import node from '../../assets/icons/nodejs.png'
+import jquery from '../../assets/icons/jquery.png'
+import express from '../../assets/icons/express.png'
+import rubyOnRails from '../../assets/icons/rubyOnRails.png'
 export const languages = [
   {
     icon: jscript,
@@ -51,39 +58,39 @@ export const frameworks = [
     level: "70",
   },
   {
-    icon: react,
+    icon: redux,
     name: "Redux",
     level: "70",
   },
   {
-    icon: react,
+    icon: bootstrap,
     name: "Bootstrap",
     level: "70",
   },
   {
-    icon: react,
+    icon: materialUI,
     name: "MaterialUI",
     level: "60",
   },
   {
-    icon: react,
+    icon: node,
     name: "Node",
     level: "50",
   },
   {
-    icon: react,
+    icon: jquery,
     name: "JQuery",
     level: "50",
   },
   {
-    icon: react,
+    icon: express,
     name: "Express",
     level: "50",
   },
   {
-    icon: react,
+    icon: rubyOnRails,
     name: "Ruby on Rails",
-    level: "30",
+    level: "40",
   },
 ];
 
