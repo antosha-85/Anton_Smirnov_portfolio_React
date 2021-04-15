@@ -5,14 +5,20 @@ import ruby from "../../assets/icons/ruby.png";
 import perl from "../../assets/icons/perl.png";
 import php from "../../assets/icons/php.png";
 import python from "../../assets/icons/python.png";
-import react from '../../assets/icons/react.png'
-import redux from '../../assets/icons/redux.png'
-import bootstrap from '../../assets/icons/bootstrap.png'
-import materialUI from '../../assets/icons/materialUI.png'
-import node from '../../assets/icons/nodejs.png'
-import jquery from '../../assets/icons/jquery.png'
-import express from '../../assets/icons/express.png'
-import rubyOnRails from '../../assets/icons/rubyOnRails.png'
+import react from "../../assets/icons/react.png";
+import redux from "../../assets/icons/redux.png";
+import bootstrap from "../../assets/icons/bootstrap.png";
+import materialUI from "../../assets/icons/materialUI.png";
+import node from "../../assets/icons/nodejs.png";
+import jquery from "../../assets/icons/jquery.png";
+import express from "../../assets/icons/express.png";
+import rubyOnRails from "../../assets/icons/rubyOnRails.png";
+import git from "../../assets/icons/git.png";
+import postgresql from "../../assets/icons/postgresql.png";
+import firebase from "../../assets/icons/firebase.png";
+import mongodb from "../../assets/icons/mongodb.png";
+
+
 export const languages = [
   {
     icon: jscript,
@@ -96,22 +102,22 @@ export const frameworks = [
 
 export const databasesCMS = [
   {
-    icon: react,
+    icon: git,
     name: "Git",
     level: "70",
   },
   {
-    icon: react,
+    icon: postgresql,
     name: "PostgreSQL",
     level: "50",
   },
   {
-    icon: react,
+    icon: firebase,
     name: "Firebase",
     level: "50",
   },
   {
-    icon: react,
+    icon: mongodb,
     name: "MongoDB",
     level: "40",
   },
