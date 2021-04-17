@@ -17,7 +17,13 @@ import git from "../../assets/icons/git.png";
 import postgresql from "../../assets/icons/postgresql.png";
 import firebase from "../../assets/icons/firebase.png";
 import mongodb from "../../assets/icons/mongodb.png";
-
+import netlify from "../../assets/icons/netlify.png";
+import aws from "../../assets/icons/aws.png";
+import jest from "../../assets/icons/jest.png";
+import chai from "../../assets/icons/chai.png";
+import cypress from "../../assets/icons/cypress.png";
+import heroku from "../../assets/icons/heroku.png";
+import storybook from "../../assets/icons/storybook.png";
 
 export const languages = [
   {
@@ -125,17 +131,17 @@ export const databasesCMS = [
 
 export const testingCloud = [
   {
-    icon: react,
+    icon: netlify,
     name: "Netlify",
     level: "60",
   },
   {
-    icon: react,
+    icon: aws,
     name: "AWS",
     level: "60",
   },
   {
-    icon: react,
+    icon: jest,
     name: "Jest",
     level: "50",
   },
@@ -145,22 +151,22 @@ export const testingCloud = [
     level: "50",
   },
   {
-    icon: react,
+    icon: chai,
     name: "Chai",
     level: "50",
   },
   {
-    icon: react,
+    icon: cypress,
     name: "Cypress",
     level: "40",
   },
   {
-    icon: react,
+    icon: heroku,
     name: "Heroku",
     level: "40",
   },
   {
-    icon: react,
+    icon: storybook,
     name: "Storybook",
     level: "40",
   },
