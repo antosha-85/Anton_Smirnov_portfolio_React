@@ -1,10 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Roboto:wght@300&display=swap');
+@font-face {
+  font-family: "Clarkson";
+  src: url(fonts/Clarkson\ demo.ttf);
+}
 
 body {
   background-image: linear-gradient(to right bottom, #00f260, #0575e6);
   background-attachment: fixed;
   color: #354538;
   font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 ::-webkit-scrollbar {
   width: 10px;
