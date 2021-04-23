@@ -58,8 +58,11 @@ const Sidebar = () => {
         </figure>
         <div className="sidebar__contact">
           <div className="sidebar__item sidebar__github">
-            <a href="https://github.com/antosha-85" target="_blank"
-            rel="noopener noreferrer">
+            <a
+              href="https://github.com/antosha-85"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src={github} alt="GitHub" className="sidebar__icon mr-2" />
               GitHub
             </a>
@@ -128,14 +131,17 @@ const Sidebar = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.google.com/maps/place/Montreal,+QC/@45.5581968,-73.8703851,11z/data=!3m1!4b1!4m5!3m4!1s0x4cc91a541c64b70d:0x654e3138211fefef!8m2!3d45.5016889!4d-73.567256"
+              href="https://www.google.com/maps/place/Calgary,
+              +AB/@51.0277202,-114.368015,10z/data=!3m1!4b1!4m5!
+              3m4!1s0x537170039f843fd5:0x266d3bb1b652b63a!8m2!
+              3d51.0447331!4d-114.071883"
             >
               <img src={pin} alt="location" className="sidebar__icon" />{" "}
-              Montreal, Canada
+              Calgary, Canada
             </a>
           </div>
           <div className="sidebar__item sidebar__email_info">
-            antosha19851985@gmail.com
+            antonSmirnovVlad@gmail.com
           </div>
           <div className="sidebar__item sidebar__phone">+1(306)250-58-61</div>
         </div>
