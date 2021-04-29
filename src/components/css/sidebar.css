@@ -38,7 +38,7 @@
 .sidebar__title {
   background-color: #f1f1f1;
   border-radius: 30px;
-  font-size: 0.95rem;
+  font-size: 0.85rem;
 }
 
 .sidebar__contact {
@@ -80,7 +80,7 @@
 }
 
 .sidebar__email_info {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
 }
 @media (max-width: 991px) {
   .app__main-content {
